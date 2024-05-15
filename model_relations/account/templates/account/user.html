@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<table>
+    <th>username </th>
+    <th>first_name </th>
+    <th>last_name </th>
+    <th>email</th>
+    {% for dt1 in data1 %}
+    <tr>
+        <td>{{dt1.username}}</td>
+        <td>{{dt1.first_name}}</td>
+        <td>{{dt1.last_name}}</td>
+        <td>{{dt1.email}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<hr>
+<table>
+    <h3>user filter by email</h3>
+    <th>username </th>
+    <th>first_name </th>
+    <th>last_name </th>
+    <th>email</th>
+
+    {% for dt1 in data2 %}
+  
+    <tr>
+        <td>{{dt1.username}}</td>
+        <td>{{dt1.first_name}}</td>
+        <td>{{dt1.last_name}}</td>
+        <td>{{dt1.email}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<hr>
+<table>
+    <h3>user filter by profile_bio programmer</h3>
+    <th>username </th>
+    <th>first_name </th>
+    <th>last_name </th>
+    <th>email</th>
+
+    {% for dt1 in data3 %}
+  
+    <tr>
+        <td>{{dt1.username}}</td>
+        <td>{{dt1.first_name}}</td>
+        <td>{{dt1.last_name}}</td>
+        <td>{{dt1.email}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<hr>
+<table>
+    <h3>user filter by post title</h3>
+    <th>username </th>
+    <th>first_name </th>
+    <th>last_name </th>
+    <th>email</th>
+
+    {% for dt1 in data4 %}
+  
+    <tr>
+        <td>{{dt1.username}}</td>
+        <td>{{dt1.first_name}}</td>
+        <td>{{dt1.last_name}}</td>
+        <td>{{dt1.email}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<hr>
+<table>
+    <h3>user filter by song duration</h3>
+    <th>username </th>
+    <th>first_name </th>
+    <th>last_name </th>
+    <th>email</th>
+
+    {% for dt1 in data4 %}
+  
+    <tr>
+        <td>{{dt1.username}}</td>
+        <td>{{dt1.first_name}}</td>
+        <td>{{dt1.last_name}}</td>
+        <td>{{dt1.email}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>

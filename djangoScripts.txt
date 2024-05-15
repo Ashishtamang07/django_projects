@@ -1,0 +1,17 @@
+django-admin startproject <projectname>
+#creating app
+python manage.py startapp <appname>
+# creting model schema
+python manage.py makemigrations
+
+# create virtual env 
+1 python -m venv .venv
+2 activate .venv
+ .venv\Scripts\activate
+
+#generating requirements fiels by pip
+1 pip install pipreqs 
+2 go to -> working dictory and run pipreqs -> generate all requirment package fro project 
+
+#running requirements fiels
+pip install -r requirements.txt -> install all package mention in req.txt files
